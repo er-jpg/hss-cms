@@ -1,0 +1,19 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.3.11",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.2.0",
+    "postcss-nested": "^5.0.6",
+    "tailwindcss": "^2.2.19"
+  }
+}
