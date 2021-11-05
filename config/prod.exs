@@ -61,4 +61,4 @@ config :hss_cms, HssCms.Repo,
   adapter: Ecto.Adapters.Postgres,
   url: System.get_env("DATABASE_URL"),
   ssl: true,
-  pool_size: 2
+  pool_size: 1
