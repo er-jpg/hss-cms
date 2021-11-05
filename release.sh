@@ -5,5 +5,6 @@ nix-shell -p python38
 python -m venv ~/.venv
 source ~/.venv/bin/activate
 
-gigalixir run mix ecto.migrate
 git push gigalixir
+
+gigalixir run mix ecto.migrate
